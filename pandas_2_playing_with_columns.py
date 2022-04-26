@@ -3,6 +3,7 @@
 import pandas as pd
 import numpy as np
 
+
 m=np.random.randint(1,30,size=(10,3))
 df=pd.DataFrame(m,columns=["var1","var2","var3"])
 
