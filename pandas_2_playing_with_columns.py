@@ -116,6 +116,7 @@ print(data.groupby("method")["orbital_period"].mean())
 
 #ALL OF Explanatory STATISTICAL FUNCTIONS
 print("ALL OF Explanatory STATISTICAL FUNCTIONS")
+print(data.describe())
 print(data.describe().T)
 
 #-----------------------------------------------
